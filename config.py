@@ -1,0 +1,14 @@
+NAMESPACE = "prod"
+APP_LABEL = "app=probe-demo"
+DEPLOYMENT_NAME = "probe-demo"
+
+MODEL = "llama3"
+
+CHECK_INTERVAL = 10
+
+ALLOWED_ACTIONS = [
+    "INCREASE_INITIAL_DELAY",
+    "FIX_PROBE_PATH",
+    "DO_NOTHING",
+    "ESCALATE_TO_HUMAN"
+]
