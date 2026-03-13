@@ -19,7 +19,7 @@ Instead of manually debugging readiness or liveness probe issues, this AI agent:
 
 ---
 
-# 🎯 Why This Project Exists
+# 🎯 Why This Agent Is Important
 
 Kubernetes probe failures are one of the most common issues in production environments.
 
